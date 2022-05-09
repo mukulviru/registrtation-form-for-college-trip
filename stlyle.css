@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'IBM Plex Serif', serif;
+}
+
+.container {
+    max-width: 80%;
+    padding: 34px;
+    margin: auto;
+}
+
+.container h1,
+p {
+    text-align: center;
+
+}
+
+input,
+textarea {
+    width: 80%;
+    margin: 11px 0;
+    padding: 7px;
+    font-size: 16px;
+    border: 2px solid black;
+    border-radius: 6px;
+    outline: none;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+p {
+    font-size: 23px;
+    color: solid black;
+}
+
+.btn {
+    color: black;
+    background: whitesmoke;
+    padding: 7px 10px;
+    font-size: 20px;
+    border: 2px solid black;
+    border-radius: 14px;
+    cursor: pointer;
+}
+
+.bg {
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    opacity: 45.9%;
+    height: 120%;
+}
+
+h1,p {
+    background-color: aliceblue;
+    opacity: 70%;
+}
+.submitMsg {
+    color: green;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+@media only screen and (max-width: 1120px) {
+    h2 {
+      font-size: small;
+    }
+    @media only screen and (max-width: 796px) {
+        h1, p {
+font-size: smaller;
+        }
+        @media only screen and (max-width: 652px) {
+            h2 {
+                font-size: 58%;
+}
